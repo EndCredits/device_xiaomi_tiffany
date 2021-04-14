@@ -30,4 +30,7 @@
          For example, a device with notification and battery lights that supports
          pulsating and RGB control would set this config to 75. -->
     <integer name="config_deviceLightCapabilities">104</integer>
+
+   <!-- Whether device supports button backlight -->
+   <bool name="config_button_brightness_support">true</bool>
 </resources>
