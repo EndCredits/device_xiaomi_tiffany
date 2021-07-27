@@ -45,6 +45,6 @@
    "remote":"github",
     "repository":"NusantaraROM-Devices/kernel_xiaomi_msm8953",
     "target_path":"kernel/xiaomi/msm8953",
-    "branch":"11"
+    "branch":"xr"
   }
 ]
