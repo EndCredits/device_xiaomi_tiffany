@@ -22,13 +22,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/tiffany/device.mk)
 
 # Inherit some common crdroid stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 USE_PIXEL_CHARGING := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tiffany
-PRODUCT_NAME := lineage_tiffany
+PRODUCT_NAME := dot_tiffany
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 5X
