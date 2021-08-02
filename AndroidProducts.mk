@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_tiffany.mk
+    $(LOCAL_DIR)/aosp_tiffany.mk
 
 COMMON_LUNCH_CHOICES := \
-	dot_tiffany-user \
-	dot_tiffany-userdebug \
-	dot_tiffany-eng
+	aosp_tiffany-user \
+	aosp_tiffany-userdebug \
+	aosp_tiffany-eng
