@@ -21,14 +21,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from tiffany device
 $(call inherit-product, device/xiaomi/tiffany/device.mk)
 
-# Inherit some common crdroid stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+# Inherit some common sakura stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 USE_PIXEL_CHARGING := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tiffany
-PRODUCT_NAME := dot_tiffany
+PRODUCT_NAME := lineage_tiffany
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 5X
@@ -36,6 +36,11 @@ PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Feels like spring
+SAKURA_BUILD_TYPE := basicgapps
+SAKURA_LAWNCHAIR := true
+TARGET_USES_BLUR := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="tiffany-user 8.0.0 OPR1.170623.026 8.1.10 release-keys"

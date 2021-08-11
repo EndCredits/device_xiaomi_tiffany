@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_tiffany.mk
+    $(LOCAL_DIR)/lineage_tiffany.mk
 
 COMMON_LUNCH_CHOICES := \
-	dot_tiffany-user \
-	dot_tiffany-userdebug \
-	dot_tiffany-eng
+	lineage_tiffany-user \
+	lineage_tiffany-userdebug \
+	lineage_tiffany-eng
