@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_tiffany.mk
+    $(LOCAL_DIR)/corvus_tiffany.mk
 
 COMMON_LUNCH_CHOICES := \
-	lineage_tiffany-user \
-	lineage_tiffany-userdebug \
-	lineage_tiffany-eng
+	corvus_tiffany-user \
+	corvus_tiffany-userdebug \
+	corvus_tiffany-eng
