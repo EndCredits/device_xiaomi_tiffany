@@ -37,10 +37,8 @@ TARGET_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# Feels like spring
-SAKURA_BUILD_TYPE := basicgapps
-SAKURA_LAWNCHAIR := true
-TARGET_USES_BLUR := true
+# Build with gapps
+USE_GMS := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="tiffany-user 8.0.0 OPR1.170623.026 8.1.10 release-keys"
