@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_tiffany.mk
+    $(LOCAL_DIR)/aosp_tiffany.mk
 
 COMMON_LUNCH_CHOICES := \
-	corvus_tiffany-user \
-	corvus_tiffany-userdebug \
-	corvus_tiffany-eng
+	aosp_tiffany-user \
+	aosp_tiffany-userdebug \
+	aosp_tiffany-eng
