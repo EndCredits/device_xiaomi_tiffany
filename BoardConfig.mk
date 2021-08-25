@@ -52,9 +52,6 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/enable_dt2w"
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
-# Hardware variant
-OVERRIDE_QCOM_HARDWARE_VARIANT := msm8996-r
-
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2020-05-05
 
