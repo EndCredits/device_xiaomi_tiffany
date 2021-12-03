@@ -32,5 +32,6 @@
     <integer name="config_deviceLightCapabilities">104</integer>
 
    <!-- Whether device supports button backlight -->
-   <bool name="config_button_brightness_support">true</bool>
+    <bool name="config_button_brightness_support">true</bool>
+    <integer name="config_button_brightness_default">128</integer>
 </resources>
