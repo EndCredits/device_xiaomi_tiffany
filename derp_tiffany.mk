@@ -38,6 +38,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # DerpFest Specific Settings
 TARGET_BOOT_ANIMATION_RES := 1080
+USE_LEGACY_BOOTANIMATION := true
 DERP_BUILDTYPE := Official
 WITH_GMS := true
 
